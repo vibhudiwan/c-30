@@ -141,7 +141,7 @@ function mouseReleased(){
 function keyPressed(){
 	if(keyCode === 32)
 	{
-		//Matter.Body.setPosition(player.body,{x:50, y:200})
-	//	sling.attach(this.player);
+		Matter.Body.setPosition(player.body,{x:50, y:200})
+		sling.attach(this.player);
 	}
 }
